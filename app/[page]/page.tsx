@@ -18,8 +18,8 @@ export async function generateMetadata({
   }
 
   return {
-    title: 'the happy ape',
-    description: 'joy meets compassion'
+    title: 'The Happy Ape',
+    description: 'Where happiness meets compassion'
     // openGraph: {
     //   publishedTime: page.createdAt,
     //   modifiedTime: page.updatedAt,

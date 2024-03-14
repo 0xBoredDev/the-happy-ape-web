@@ -1,6 +1,7 @@
 import Navbar from 'components/layout/navbar';
 import { ensureStartsWith } from 'lib/utils';
 import { Happy_Monkey } from 'next/font/google';
+import img from 'public/images/banner.png';
 import { ReactNode, Suspense } from 'react';
 import './globals.css';
 
@@ -31,7 +32,9 @@ export const metadata = {
       twitter: {
         card: 'summary_large_image',
         creator: twitterCreator,
-        site: twitterSite
+        site: twitterSite,
+        description: 'Where happiness meets compassion!',
+        image: img.src
       }
     })
 };

@@ -1,3 +1,7 @@
+'use client';
+// import { Controls, Player } from '@lottiefiles/react-lottie-player';
+import { DotLottiePlayer } from '@dotlottie/react-player';
+import '@dotlottie/react-player/dist/index.css';
 import Image from 'next/image';
 
 export async function ComingSoon() {
@@ -13,12 +17,12 @@ export async function ComingSoon() {
   return (
     <section className="container mx-auto mb-12">
       <div className="mb-8 mt-2 flex w-full">
-        <div className="basis-2/5 space-y-6 px-4">
+        <div className="basis-1/2 space-y-6 px-4">
           <h2 className="text-5xl">
             Welcome to <br />
             The Happy Ape
           </h2>
-          <p className="my-4">&quot;Where joy meets compassion&quot;</p>
+          <p className="my-4">&quot;Where happiness meets compassion&quot;</p>
           <p>
             My name is Kevin, and I am a husabnd, father of 3, and have worked in the IT space over
             10 years. I have spent the last few years in what many refer to as web3. I`ve always had
@@ -30,13 +34,20 @@ export async function ComingSoon() {
             help culture a world filled with more kindness and compassion.
           </p>
         </div>
-        <div className="basis-3/5">
+        <div className="basis-1/2">
           <Image src={'/images/banner.png'} width={1000} height={1000} alt="banner"></Image>
         </div>
       </div>
-      <div className="my-8 flex w-full p-4">
-        <div className="basis-1/2"></div>
-        <div className="basis-1/2 space-y-6">
+      <div className="flex w-full p-4">
+        <div className="flex basis-1/2 justify-center">
+          <DotLottiePlayer
+            autoplay
+            loop
+            src="/animations/rainbow.lottie"
+            style={{ height: '500px', width: '500px' }}
+          ></DotLottiePlayer>
+        </div>
+        <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">The Brand</h2>
           <p>
             We are a unique company dedicated to creating a world filled with kindness, love, and
@@ -46,8 +57,8 @@ export async function ComingSoon() {
           </p>
         </div>
       </div>
-      <div className="my-8 flex w-full p-4">
-        <div className="basis-1/2 space-y-6">
+      <div className="flex w-full p-4">
+        <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Story Books</h2>
           <p>
             Immerse your yourself in the enchanting world of The Happy Ape with our delightful
@@ -57,11 +68,18 @@ export async function ComingSoon() {
             inspire.
           </p>
         </div>
-        <div className="basis-1/2"></div>
+        <div className="flex basis-1/2 justify-center">
+          <DotLottiePlayer
+            autoplay
+            loop
+            src="/animations/book.lottie"
+            style={{ height: '500px', width: '500px' }}
+          ></DotLottiePlayer>
+        </div>
       </div>
-      <div className="my-8 flex w-full p-4">
-        <div className="basis-1/2"></div>
-        <div className="basis-1/2 space-y-6">
+      <div className="flex w-full p-4">
+        <div className="flex basis-1/2 justify-center"></div>
+        <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Plushies</h2>
           <p>
             Discover the warmth and comfort of The Happy Ape plushie, an adorable companion that
@@ -72,8 +90,8 @@ export async function ComingSoon() {
           </p>
         </div>
       </div>
-      <div className="my-8 flex w-full p-4">
-        <div className="basis-1/2 space-y-6">
+      <div className="flex w-full p-4">
+        <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Clothing Line</h2>
           <p>
             Wrap yourself and loved ones in the embrace of positivity with our thoughtfully designed
@@ -84,12 +102,12 @@ export async function ComingSoon() {
             compassion.
           </p>
         </div>
-        <div className="basis-1/2"></div>
+        <div className="flex basis-1/2 justify-center"></div>
       </div>
 
-      <div className="my-8 flex w-full p-4">
-        <div className="basis-1/2"></div>
-        <div className="basis-1/2 space-y-6">
+      <div className="flex w-full p-4">
+        <div className="flex basis-1/2 justify-center"></div>
+        <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Our Commitment</h2>
           <p>
             At The Happy Ape, our commitment is to positively impact the world by nurturing people

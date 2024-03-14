@@ -8,7 +8,7 @@ import { Suspense } from 'react';
 export const runtime = 'edge';
 
 export const metadata = {
-  description: 'Welcome to The Happy Ape, where joy meets compassion!',
+  description: 'Where happiness meets compassion!',
   openGraph: {
     type: 'website'
   }
