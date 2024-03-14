@@ -10,9 +10,6 @@ dependencies:
   '@heroicons/react':
     specifier: ^2.0.18
     version: 2.0.18(react@18.2.0)
-  '@lottiefiles/react-lottie-player':
-    specifier: ^3.5.0
-    version: 3.5.0(react@18.2.0)
   clsx:
     specifier: ^2.0.0
     version: 2.0.0
@@ -25,9 +22,6 @@ dependencies:
   react-dom:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
-  sharp:
-    specifier: ^0.33.2
-    version: 0.33.2
 
 devDependencies:
   '@tailwindcss/container-queries':
@@ -456,15 +450,6 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
     dev: true
-
-  /@lottiefiles/react-lottie-player@3.5.0(react@18.2.0):
-    resolution: {integrity: sha512-RSlqcq9d204sqmG5ithFYQwxovLP96uj8yY+f2U8WPtdmv4zMvx1C4V4wv5nlcr2drSxvoyykM50YrVDpXjKwQ==}
-    peerDependencies:
-      react: 16 - 18
-    dependencies:
-      lottie-web: 5.12.2
-      react: 18.2.0
-    dev: false
 
   /@next/env@14.1.0:
     resolution: {integrity: sha512-Py8zIo+02ht82brwwhTg36iogzFqGLPXlRGKQw5s+qP/kMNc4MAyDeEwBKDijk6zTIbegEgu8Qy7C1LboslQAw==}

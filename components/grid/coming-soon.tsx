@@ -1,5 +1,4 @@
 'use client';
-// import { Controls, Player } from '@lottiefiles/react-lottie-player';
 import { DotLottiePlayer } from '@dotlottie/react-player';
 import '@dotlottie/react-player/dist/index.css';
 import Image from 'next/image';
