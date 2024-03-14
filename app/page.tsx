@@ -5,7 +5,7 @@ import { ComingSoon } from 'components/grid/coming-soon';
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 export const metadata = {
   description: 'Where happiness meets compassion!',
