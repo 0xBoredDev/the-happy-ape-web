@@ -34,7 +34,7 @@ export async function ComingSoon() {
           </p>
         </div>
         <div className="basis-1/2">
-          <Image src={'/images/banner.png'} width={1000} height={1000} alt="banner"></Image>
+          <Image src={'/images/banner.avif'} width={1000} height={1000} alt="banner"></Image>
         </div>
       </div>
       <div className="flex w-full p-4">
@@ -77,7 +77,14 @@ export async function ComingSoon() {
         </div>
       </div>
       <div className="flex w-full p-4">
-        <div className="flex basis-1/2 justify-center"></div>
+        <div className="flex basis-1/2 justify-center">
+          <DotLottiePlayer
+            autoplay
+            loop
+            src="/animations/ape.lottie"
+            style={{ height: '500px', width: '500px' }}
+          ></DotLottiePlayer>
+        </div>
         <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Plushies</h2>
           <p>
@@ -101,11 +108,25 @@ export async function ComingSoon() {
             compassion.
           </p>
         </div>
-        <div className="flex basis-1/2 justify-center"></div>
+        <div className="flex basis-1/2 justify-center">
+          <DotLottiePlayer
+            autoplay
+            loop
+            src="/animations/clothes.lottie"
+            style={{ height: '500px', width: '500px' }}
+          ></DotLottiePlayer>
+        </div>
       </div>
 
       <div className="flex w-full p-4">
-        <div className="flex basis-1/2 justify-center"></div>
+        <div className="flex basis-1/2 justify-center">
+          <DotLottiePlayer
+            autoplay
+            loop
+            src="/animations/heart.lottie"
+            style={{ height: '500px', width: '500px' }}
+          ></DotLottiePlayer>
+        </div>
         <div className="flex basis-1/2 flex-col justify-center space-y-6">
           <h2 className="text-5xl">Our Commitment</h2>
           <p>

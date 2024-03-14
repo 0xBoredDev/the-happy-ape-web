@@ -1,7 +1,7 @@
 import Navbar from 'components/layout/navbar';
 import { ensureStartsWith } from 'lib/utils';
 import { Happy_Monkey } from 'next/font/google';
-import img from 'public/images/banner.png';
+import img from 'public/images/banner.avif';
 import { ReactNode, Suspense } from 'react';
 import './globals.css';
 
