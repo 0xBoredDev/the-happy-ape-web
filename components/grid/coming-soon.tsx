@@ -15,9 +15,9 @@ export async function ComingSoon() {
 
   return (
     <section className="container mx-auto mb-12">
-      <div className="mb-8 mt-2 flex w-full">
-        <div className="basis-1/2 space-y-6 px-4">
-          <h2 className="text-5xl">
+      <div className="mb-8 mt-2 flex w-full flex-col md:flex-row">
+        <div className="md:sb-0 mb-4 basis-full space-y-6 px-4 text-center md:basis-1/2 md:text-justify">
+          <h2 className="text-2xl md:text-5xl">
             Welcome to <br />
             The Happy Ape
           </h2>
@@ -33,12 +33,12 @@ export async function ComingSoon() {
             help culture a world filled with more kindness and compassion.
           </p>
         </div>
-        <div className="basis-1/2">
+        <div className="flex basis-full justify-center md:basis-1/2">
           <Image src={'/images/banner.avif'} width={1000} height={1000} alt="banner"></Image>
         </div>
       </div>
-      <div className="flex w-full p-4">
-        <div className="flex basis-1/2 justify-center">
+      <div className="flex w-full flex-col px-4 md:flex-row">
+        <div className="order-2 flex basis-1/2 justify-center md:order-1">
           <DotLottiePlayer
             autoplay
             loop
@@ -46,7 +46,7 @@ export async function ComingSoon() {
             style={{ height: '500px', width: '500px' }}
           ></DotLottiePlayer>
         </div>
-        <div className="flex basis-1/2 flex-col justify-center space-y-6">
+        <div className="order-1 flex basis-1/2 flex-col justify-center space-y-6 text-center md:order-2 md:text-justify">
           <h2 className="text-5xl">The Brand</h2>
           <p>
             We are a unique company dedicated to creating a world filled with kindness, love, and
@@ -56,15 +56,14 @@ export async function ComingSoon() {
           </p>
         </div>
       </div>
-      <div className="flex w-full p-4">
-        <div className="flex basis-1/2 flex-col justify-center space-y-6">
+      <div className="flex w-full flex-col px-4 md:flex-row">
+        <div className="flex basis-1/2 flex-col justify-center space-y-6 text-center md:text-justify">
           <h2 className="text-5xl">Story Books</h2>
           <p>
-            Immerse your yourself in the enchanting world of The Happy Ape with our delightful
-            collection of story books. Each story is carefully crafted to not only entertain but
-            also instill essential values of kindness, empathy, and understanding. Our authors and
-            illustrators work collaboratively to create captivating narratives that encourage and
-            inspire.
+            Immerse yourself in the enchanting world of The Happy Ape with our delightful collection
+            of story books. Each story is carefully crafted to not only entertain but also instill
+            essential values of kindness, empathy, and understanding. Our authors and illustrators
+            work collaboratively to create captivating narratives that encourage and inspire.
           </p>
         </div>
         <div className="flex basis-1/2 justify-center">
@@ -72,20 +71,20 @@ export async function ComingSoon() {
             autoplay
             loop
             src="/animations/book.lottie"
-            style={{ height: '500px', width: '500px' }}
+            // style={{ height: '500px', width: '500px' }}
           ></DotLottiePlayer>
         </div>
       </div>
-      <div className="flex w-full p-4">
-        <div className="flex basis-1/2 justify-center">
+      <div className="flex w-full flex-col px-4 md:flex-row">
+        <div className="order-2 flex basis-1/2 justify-center md:order-1">
           <DotLottiePlayer
             autoplay
             loop
             src="/animations/ape.lottie"
-            style={{ height: '500px', width: '500px' }}
+            // style={{ height: '500px', width: '500px' }}
           ></DotLottiePlayer>
         </div>
-        <div className="flex basis-1/2 flex-col justify-center space-y-6">
+        <div className="order-1 flex basis-1/2 flex-col justify-center space-y-6 text-center md:order-2 md:text-justify">
           <h2 className="text-5xl">Plushies</h2>
           <p>
             Discover the warmth and comfort of The Happy Ape plushie, an adorable companion that
@@ -96,8 +95,8 @@ export async function ComingSoon() {
           </p>
         </div>
       </div>
-      <div className="flex w-full p-4">
-        <div className="flex basis-1/2 flex-col justify-center space-y-6">
+      <div className="flex w-full flex-col px-4 md:flex-row">
+        <div className="flex basis-1/2 flex-col justify-center space-y-6 text-center md:text-justify">
           <h2 className="text-5xl">Clothing Line</h2>
           <p>
             Wrap yourself and loved ones in the embrace of positivity with our thoughtfully designed
@@ -117,9 +116,8 @@ export async function ComingSoon() {
           ></DotLottiePlayer>
         </div>
       </div>
-
-      <div className="flex w-full p-4">
-        <div className="flex basis-1/2 justify-center">
+      <div className="flex w-full flex-col px-4 md:flex-row">
+        <div className="order-2 flex basis-1/2 justify-center md:order-1">
           <DotLottiePlayer
             autoplay
             loop
@@ -127,7 +125,7 @@ export async function ComingSoon() {
             style={{ height: '500px', width: '500px' }}
           ></DotLottiePlayer>
         </div>
-        <div className="flex basis-1/2 flex-col justify-center space-y-6">
+        <div className="order-1 flex basis-1/2 flex-col justify-center space-y-6 text-center md:order-2 md:text-justify">
           <h2 className="text-5xl">Our Commitment</h2>
           <p>
             At The Happy Ape, our commitment is to positively impact the world by nurturing people
