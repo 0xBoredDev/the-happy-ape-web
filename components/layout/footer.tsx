@@ -35,9 +35,6 @@ export default async function Footer() {
         >
           <FooterMenu menu={menu} />
         </Suspense>
-        <div className="md:ml-auto">
-          <p className='text-black dark:text-white'>Socials</p>
-        </div>
       </div> */}
       <div className="border-t border-neutral-200 py-6 text-sm dark:border-neutral-700">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-1 px-4 md:flex-row md:gap-0 md:px-4 min-[1320px]:px-0">
@@ -67,7 +64,6 @@ export default async function Footer() {
               </svg>
             </a>
           </div>
-          <p className="mr-4 md:ml-auto"></p>
           <div>
             <MBASquare />
           </div>
