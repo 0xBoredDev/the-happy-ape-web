@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Suspense } from 'react';
 import MobileMenu from './mobile-menu';
 import Search from './search';
+import ThemeToggle from './theme-toggle';
 const { SITE_NAME } = process.env;
 
 export default async function Navbar() {
@@ -43,7 +44,8 @@ export default async function Navbar() {
         <div className="hidden justify-center md:flex md:w-1/3">
           <Search />
         </div>
-        <div className="flex justify-end md:w-1/3">
+        <div className="flex justify-end gap-x-2 md:w-1/3">
+          <ThemeToggle />
           <Suspense fallback={<OpenCart />}>
             <Cart />
           </Suspense>
