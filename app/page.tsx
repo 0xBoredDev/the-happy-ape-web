@@ -17,8 +17,8 @@ export const metadata = {
 export default async function HomePage() {
   return (
     <>
-      <ComingSoon />
       <Suspense>
+        <ComingSoon />
         {/* <Carousel /> */}
         <Suspense>
           <Footer />
