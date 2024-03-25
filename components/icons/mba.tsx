@@ -11,7 +11,7 @@ export default function MBAIcon() {
     if (mode) {
       setImgSrc(`/images/mba_${mode.mode}.avif`);
     }
-  }, [mode]);
+  }, [mode, imgSrc]);
 
   return <Image src={imgSrc} width={64} height={58} alt="logo"></Image>;
 }
