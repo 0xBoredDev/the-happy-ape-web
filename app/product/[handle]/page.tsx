@@ -11,7 +11,7 @@ import Footer from 'components/layout/footer';
 // import { Image } from 'lib/shopify/types';
 // import Link from 'next/link';
 
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 
 export async function generateMetadata({
   params
