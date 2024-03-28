@@ -23,7 +23,7 @@ export async function ComingSoon() {
           </h2>
           <p className="my-4">&quot;Where happiness meets compassion&quot;</p>
           <p>
-            My name is Kevin, and I am a husabnd, father of 3, and have worked in the IT space over
+            My name is Kevin, and I am a husband, father of 3, and have worked in the IT space over
             10 years. I have spent the last few years in what many refer to as web3. I`ve always had
             a passion for helping others. I was raised to treat others with kindness and compassion.
           </p>
